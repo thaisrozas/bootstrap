@@ -18,3 +18,5 @@ Na documentação, mesmo que a classe esteja associada a uma tag específica, qu
 Margens e espaçamentos fazem cálculos a partir da unidade rem (relativa à tipografia do browser, que normalmente é 16px; relativo à raiz, vai ser sempre a partir do 16px)
 
 Não tem estilo de sombra (tem que ser colocado no css externo)
+
+Normalmente a navegação é de container fluid (vai de ponta a ponta o conteúdo), navegação expande até o infinito. O container normal centraliza o conteúdo e adiciona margens laterais principalmente.
