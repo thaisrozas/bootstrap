@@ -28,7 +28,7 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="local.html">California</a>
               <a class="dropdown-item" href="local.html">Paris</a>
@@ -37,7 +37,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="planos.html" class="nav-link">Planos</a>
+            <a href="planos.html" class="nav-link active">Planos</a>
           </li>
 
           <li class="nav-item">
@@ -57,79 +57,48 @@
     </nav>
 
     <section class="container">
-      <div class="text-center my-5">
-        <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
-        <h2 class="display-4 text-primary">Descubra Dublin</h2>
-      </div>
-      <div class="row">
-        <div class="col-md">
-          <img class="img-fluid mb-4" src="./img/local/foto-1.jpg" alt="">
-          <img class="img-fluid mb-4" src="./img/local/foto-2.jpg" alt="">
-          <img class="img-fluid mb-4" src="./img/local/foto-3.jpg" alt="">
-        </div>
-        <div class="col-md">
-          <img class="img-fluid mb-4" src="./img/local/foto-4.jpg" alt="">
-          <img class="img-fluid mb-4" src="./img/local/foto-5.jpg" alt=""> 
-        </div>
-        <div class="col-md">
-          <img class="img-fluid mb-4" src="./img/local/foto-6.jpg" alt="">
-          <img class="img-fluid mb-4" src="./img/local/foto-7.jpg" alt="">
-        </div>
-      </div>
-    </section>
-
-    <section class="container">
       
       <div class="text-center my-5">
-        <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
-        <h2 class="display-4 text-primary">Próximos eventos</h2>
+        <span class="h6 d-block">SEU PLANO, SUA VIAGEM</span>
+        <h2 class="display-4 text-primary">Escolha o Plano</h2>
       </div>
+      <div class="row">
 
-      <table class="table table-hover table-md-responsive my-5 text-center">
-        <thead>
-          <tr>
-            <th scope="col">Data</th>
-            <th scope="col">Evento</th>
-            <th scope="col">Local</th>
-            <th scope="col">Ticket</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">23/10</th>
-            <td>Julien Baker</td>
-            <td>The Academy</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">23/10</th>
-            <td>Julien Baker</td>
-            <td>The Academy</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">23/10</th>
-            <td>Julien Baker</td>
-            <td>The Academy</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">23/10</th>
-            <td>Julien Baker</td>
-            <td>The Academy</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">23/10</th>
-            <td>Julien Baker</td>
-            <td>The Academy</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-        </tbody>
-      </table>
+        <div class="col">
+          <div class="bg-light rounded p-4 box-shadow">
+            <h2>Gold</h2>
+            <ul class="plano__lista list-unstyled">
+              <li class="">→ 30 dias de viagem</li>
+              <li>→ 3 destinos diferentes</li>
+              <li>→ Tudo pago pela empresa</li>
+              <li>→ Ingressos para festas</li>
+            </ul>
+            <form action="">
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
 
+        <div class="col">
+          <div class="bg-light rounded p-4 box-shadow">
+            <h2>Platinum <span class="badge badge-success">Novo</span>
+            </h2>
+          </div>
+        </div>
+
+      </div>
     </section>
     
+    <!-- Footer -->
     <footer class="bg-dark text-white mt-5">
       <div class="container py-4">
         <div class="row">
