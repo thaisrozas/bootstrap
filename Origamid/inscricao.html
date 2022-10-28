@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Caravan | Local</title>
+    <title>Contato</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    
+
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
       <a class="navbar-brand" href="#">
         <img src="./img/caravan.svg" alt="Caravan">
@@ -37,7 +37,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="planos.html" class="nav-link active">Planos</a>
+            <a href="planos.html" class="nav-link">Planos</a>
           </li>
 
           <li class="nav-item">
@@ -57,82 +57,79 @@
     </nav>
 
     <section class="container">
-      
-      <div class="text-center my-5">
-        <span class="h6 d-block">SEU PLANO, SUA VIAGEM</span>
-        <h2 class="display-4 text-primary">Escolha o Plano</h2>
+      <div class="my-5 text-center">
+        <span class="h6 d-block">PROGRAME A VIAGEM DOS SEUS SONHOS</span>
+        <h1 class="display-4 text-primary">Increva-se</h1>
       </div>
+
       <div class="row">
 
-        <div class="col-md mb-5">
-          <div class="bg-light rounded p-4 box-shadow">
-            <h2>Gold</h2>
-            <ul class="plano__lista list-unstyled">
-              <li class="">→ 30 dias de viagem</li>
-              <li>→ 3 destinos diferentes</li>
-              <li>→ Tudo pago pela empresa</li>
-              <li>→ Ingressos para festas</li>
-            </ul>
-            <form action="">
-              <div class="form-group">
-                <select class="form-control bg-light" id="inputCidades">
-                  <option>Selecione a cidade</option>
-                  <option>California</option>
-                  <option>Paris</option>
-                  <option>Dublin</option>
+        <div class="col-lg-6">
+
+          <form action="">
+  
+            <div class="form-row">
+  
+              <div class="form-group col-md-6">
+                <label for="inputNome">Nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome completo">
+              </div>
+  
+              <div class="form-group col-md-6">
+                <label for="inputCPF">CPF</label>
+                <input type="text" class="form-control" id="inputCPF" placeholder="xxx.xxx.xxx-xx">
+              </div>
+  
+              <div class="form-group col-md-6">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Seu email">
+              </div>
+  
+              <div class="form-group col-md-6">
+                <label for="inputSenha">Senha</label>
+                <input type="password" class="form-control" id="inputSenha" placeholder="Senha de acesso">
+              </div>
+  
+              <div class="form-group col-md-12">
+                <label for="inputEndereco">Endereço</label>
+                <input type="text" class="form-control" id="inputEndereco" placeholder="Número, nome da rua e bairro">
+              </div>
+  
+              <div class="form-group col-md-6">
+                <label for="inputCidade">Cidade</label>
+                <input type="text" class="form-control" id="inputCidade">
+              </div>
+  
+              <div class="form-group col-md-3 col-6">
+                <label for="inputEstado">Estado</label>
+                <select class="form-control" id="inputEstado">
+                  <option>Selecione o estado</option>
+                  <option>Rio de Janeiro</option>
+                  <option>São Paulo</option>
+                  <option>Distrito Federal</option>
+                  <option>Ceará</option>
                 </select>
               </div>
-            </form>
-
-            <div class="row align-items-center mt-4">
-              <div class="col">
-                <a href="inscricao.html" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
+  
+              <div class="form-group col-md-3 col-6">
+                <label for="inputCEP">CEP</label>
+                <input type="text" class="form-control" id="inputCEP" placeholder="xxxxx-xxx">
               </div>
-              <div class="col">
-                <span class="h4">R$5.000</span>
-              </div>
+  
             </div>
-
+  
+          </form>
+  
+          <div class="bg-light rounded box-shadow p-3 form-group">
+  
           </div>
-        </div>
 
-        <div class="col-md mb-5">
-          <div class="bg-light rounded p-4 box-shadow">
-            <h2>Platinum <span class="badge badge-success">Novo</span>
-            </h2>
-            <ul class="plano__lista list-unstyled">
-              <li class="">→ 30 dias de viagem</li>
-              <li>→ 3 destinos diferentes</li>
-              <li>→ Tudo pago pela empresa</li>
-              <li>→ Ingressos para festas</li>
-            </ul>
-            <form action="">
-              <div class="form-group">
-                <select class="form-control bg-light" id="inputCidades">
-                  <option>Selecione a cidade</option>
-                  <option>California</option>
-                  <option>Paris</option>
-                  <option>Dublin</option>
-                </select>
-              </div>
-            </form>
-
-            <div class="row align-items-center mt-4">
-              <div class="col">
-                <a href="inscricao.html" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
-              </div>
-              <div class="col">
-                <span class="h4">R$15.000</span>
-              </div>
-            </div>
-
-          </div>
         </div>
 
       </div>
+    
     </section>
     
-    <!-- Footer -->
     <footer class="bg-dark text-white mt-5">
       <div class="container py-4">
         <div class="row">
@@ -175,7 +172,6 @@
       </div>
     </footer>
 
-    <!-- Modal -->
     <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -203,15 +199,16 @@
       </div>
     </div>
     <!-- Fecha Modal  -->
-
+    
+    <!-- scripts do bootstrap -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <!-- <script type="text/javascript" src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script>-->
     <script type="text/javascript" src="./js/app.js"></script>
-
   </body>
-
 </html>
