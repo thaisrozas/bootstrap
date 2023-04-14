@@ -1,7 +1,7 @@
 # Bootstrap
-Este repositório diz respeito aos meus projetos e estudos sobre Bootstrap, um dos frameworks que mais utilizo no desenvolvimento web.
+Repository dedicated to my personal projects and studies about the bootstrap framework
 
-Sobre o Bootstrap
+<!--Sobre o Bootstrap
 É um framework de CSS e Javascript
 Atalho para adicionar as bibliotecas
 
@@ -19,4 +19,4 @@ Margens e espaçamentos fazem cálculos a partir da unidade rem (relativa à tip
 
 Não tem estilo de sombra (tem que ser colocado no css externo)
 
-Normalmente a navegação é de container fluid (vai de ponta a ponta o conteúdo), navegação expande até o infinito. O container normal centraliza o conteúdo e adiciona margens laterais principalmente.
+Normalmente a navegação é de container fluid (vai de ponta a ponta o conteúdo), navegação expande até o infinito. O container normal centraliza o conteúdo e adiciona margens laterais principalmente.-->
